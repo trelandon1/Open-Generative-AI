@@ -51,6 +51,10 @@ function navigate(page) {
       import('./components/McpCliStudio.js').then(({ McpCliStudio }) => {
         wrapper.appendChild(McpCliStudio());
       });
+    } else if (page === 'free-apis') {
+      import('./components/FreeApiFinder.js').then(({ createFreeApiFinderPage }) => {
+        wrapper.appendChild(createFreeApiFinderPage());
+      });
     }
   }
 }

@@ -58,6 +58,7 @@ const translations = {
         'nav.workflows': 'Workflows',
         'nav.agents': 'Agents',
         'nav.mcpcli': 'MCP & CLI',
+        'nav.freeapis': 'Free APIs',
         'nav.settings': 'Settings',
 
         // Sidebar
@@ -282,6 +283,7 @@ const translations = {
         'nav.workflows': '工作流',
         'nav.agents': '智能体',
         'nav.mcpcli': 'MCP & CLI',
+        'nav.freeapis': '免费 API',
         'nav.settings': '设置',
 
         // Sidebar
